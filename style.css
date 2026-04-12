@@ -1,0 +1,66 @@
+/* General Reset */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Style */
+.header {
+    background-color: #002A5E;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 200px;
+    background-color: #00447A;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+.content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+#chart {
+    width: 100%;
+    height: 300px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #002A5E;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
