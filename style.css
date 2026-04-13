@@ -64,3 +64,19 @@ body, h1, h2, p {
     bottom: 0;
     width: 100%;
 }
+
+/* Metrics Section Style */
+#metrics {
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#chart-container {
+    width: 70%; /* Responsive width */
+    margin: 20px auto; /* Center the chart */
+}
+canvas {
+    width: 100%; /* Chart stretches within the container */
+    height: auto;
+}
